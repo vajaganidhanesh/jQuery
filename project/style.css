@@ -1,4 +1,12 @@
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+}
+
 .product {
+  width: 350px;
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;

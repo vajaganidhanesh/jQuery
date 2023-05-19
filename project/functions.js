@@ -144,6 +144,10 @@ $(document).ready(function () {
     $productDiv.append($("<p>").text("Category: " + product.category));
     $productDiv.append($("<img>").attr("src", product.image));
     $("#productList").append($productDiv);
+    $("img").css({
+      width: "300px",
+      height: "300px",
+    });
   });
 
   // Create (Add) Operation
